@@ -2,7 +2,7 @@
 
 
 $(document).ready(function(){
-  $('h1').on("click", function() { window.alert("Hey!")})
+  $('h1').on("clicked", function() {alert("Hey!")})
 
 
 });
