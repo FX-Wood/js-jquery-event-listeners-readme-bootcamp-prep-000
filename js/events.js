@@ -2,11 +2,12 @@
 function hey() {
   alert("Hey!")
 }
-
+function getIt()  {
+  $('p').on("click", hey)
+}
 
 $(document).ready(function(){
-  function getIt()  {
-    $('p').on("click", hey)
-  }
+  getIt()
+
 
 });
